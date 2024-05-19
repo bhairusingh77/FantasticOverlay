@@ -49,39 +49,46 @@
         </div>
     </section>
 
-    <!-- Portfolio Section -->
-    <section id="portfolio">
-        <h2>Portfolio</h2>
-        <div class="portfolio-grid">
-            <div class="portfolio-item">
-                <div class="card">
-                    <div class="card-inner">
-                        <div class="card-front" data-video="video1.mp4">
-                            <img src="video-thumbnail1.jpg" alt="Video Thumbnail">
-                            <h3>Documentary</h3>
-                        </div>
-                        <div class="card-back">
-                            <p>Description of the Documentary project.</p>
-                        </div>
+   <!-- Portfolio Section -->
+<section id="portfolio">
+    <h2>Portfolio</h2>
+    <div class="portfolio-grid">
+        <div class="portfolio-item">
+            <div class="card">
+                <div class="card-inner">
+                    <div class="card-front" data-video="video1.mp4">
+                        <img src="video-thumbnail1.jpg" alt="Video Thumbnail">
+                        <h3>Documentary</h3>
+                    </div>
+                    <div class="card-back">
+                        <video controls>
+                            <source src="video1.mp4" type="video/mp4">
+                            Your browser does not support the video tag.
+                        </video>
                     </div>
                 </div>
             </div>
-            <div class="portfolio-item">
-                <div class="card">
-                    <div class="card-inner">
-                        <div class="card-front" data-video="video2.mp4">
-                            <img src="video-thumbnail2.jpg" alt="Video Thumbnail">
-                            <h3>Short Film</h3>
-                        </div>
-                        <div class="card-back">
-                            <p>Description of the Short Film project.</p>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <!-- Add more items as needed -->
         </div>
-    </section>
+        <div class="portfolio-item">
+            <div class="card">
+                <div class="card-inner">
+                    <div class="card-front" data-video="video2.mp4">
+                        <img src="video-thumbnail2.jpg" alt="Video Thumbnail">
+                        <h3>Short Film</h3>
+                    </div>
+                    <div class="card-back">
+                        <video controls>
+                            <source src="video2.mp4" type="video/mp4">
+                            Your browser does not support the video tag.
+                        </video>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Add more items as needed -->
+    </div>
+</section>
+
 
     <!-- Plugins Section -->
     <section id="plugins">
@@ -109,13 +116,13 @@
     </section>
 
     <!-- About Us Section -->
-    <section id="about">
+    <section id="about" class="frosted-glass">
         <h2>About Us</h2>
         <p>Information about you or your team.</p>
     </section>
 
     <!-- Contact Us Section -->
-    <section id="contact">
+    <section id="contact" class="frosted-glass">
         <h2>Contact Us</h2>
         <form>
             <input type="text" placeholder="Your Name" required>
