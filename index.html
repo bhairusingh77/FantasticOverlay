@@ -99,7 +99,7 @@
                 <p>Plugin Description</p>
                 <a href="plugins.html"><button>Buy Now</button></a>
             </div>
-            <div class="plugins-grid">
+                <div class="plugins-grid">
                 <div class="plugin-item">
                     <h3>Plugin Title</h3>
                     <p>Plugin Description</p>
@@ -124,10 +124,11 @@
     <!-- Contact Us Section -->
     <section id="contact" class="frosted-glass">
         <h2>Contact Us</h2>
-        <form>
-            <input type="text" placeholder="Your Name" required>
-            <input type="email" placeholder="Your Email" required>
-            <textarea placeholder="Your Message" required></textarea>
+        <form id="contactForm" action="https://api.web3forms.com/submit" method="post">
+            <input type="hidden" name="access_key" value="722e57b9-1ae9-423c-860b-ad43478b377f">
+            <input type="text" placeholder="Your Name" required name="first_name">
+            <input type="email" placeholder="Your Email"  required name="Email">
+            <textarea  placeholder="Your Message" required name="message" ></textarea>
             <button type="submit">Send</button>
         </form>
     </section>
